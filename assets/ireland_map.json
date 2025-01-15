@@ -1,0 +1,70 @@
+{
+    "main_settings": {
+      "width": "responsive",
+      "background_color": "#FFFFFF",
+      "background_transparent": "yes",
+      "border_color": "#ffffff",
+      "state_description": "State description",
+      "state_color": "#88A4BC",
+      "state_hover_color": "#3B729F",
+      "state_url": "",
+      "border_size": 1.5,
+      "all_states_inactive": "no",
+      "all_states_zoomable": "yes"
+    },
+    "state_specific": {
+      "IECE": { "name": "Clare", "description": " " },
+      "IECN": { "name": "Cavan", "description": " " },
+      "IECO": { "name": "Cork", "description": " " },
+      "IECW": { "name": "Carlow", "description": " " },
+      "IED": { "name": "Dublin", "description": " " },
+      "IEDL": { "name": "Donegal", "description": " " },
+      "IEG": { "name": "Galway", "description": " " },
+      "IEKE": { "name": "Kildare", "description": " " },
+      "IEKK": { "name": "Kilkenny", "description": " " },
+      "IEKY": { "name": "Kerry", "description": " " },
+      "IELD": { "name": "Longford", "description": " " },
+      "IELH": { "name": "Louth", "description": " " },
+      "IELK": { "name": "Limerick", "description": " " },
+      "IELM": { "name": "Leitrim", "description": " " },
+      "IELS": { "name": "Laoighis", "description": " " },
+      "IEMH": { "name": "Meath", "description": " " },
+      "IEMN": { "name": "Monaghan", "description": " " },
+      "IEMO": { "name": "Mayo", "description": " " },
+      "IEOY": { "name": "Offaly", "description": " " },
+      "IERN": { "name": "Roscommon", "description": " " },
+      "IESO": { "name": "Sligo", "description": " " },
+      "IETA": { "name": "Tipperary", "description": " " },
+      "IEWD": { "name": "Waterford", "description": " " },
+      "IEWX": { "name": "Wexford", "description": " " }
+    },
+    "locations": {
+      "0": {
+        "name": "Dublin",
+        "lat": "53.333056",
+        "lng": "-6.248889"
+      }
+    },
+    "labels": {
+      "IECE": { "name": "Clare", "parent_id": "IECE" },
+      "IECN": { "name": "Cavan", "parent_id": "IECN" },
+      "IECO": { "name": "Cork", "parent_id": "IECO" },
+      "IECW": { "name": "Carlow", "parent_id": "IECW" },
+      "IED": { "name": "Dublin", "parent_id": "IED" },
+      "IEDL": { "name": "Donegal", "parent_id": "IEDL" },
+      "IEG": { "name": "Galway", "parent_id": "IEG" },
+      "IEKE": { "name": "Kildare", "parent_id": "IEKE" },
+      "IEKK": { "name": "Kilkenny", "parent_id": "IEKK" },
+      "IEKY": { "name": "Kerry", "parent_id": "IEKY" }
+    },
+    "regions": {
+      "0": { "states": ["IED"], "name": "Dublin" },
+      "1": { "states": ["IEMH", "IEKE", "IELH", "IEWW"], "name": "Mid East" },
+      "2": { "states": ["IELS", "IEOY", "IEWH", "IELD", "IERN"], "name": "Mid Lands" },
+      "3": { "states": ["IELK", "IECE", "IETA", "IEG"], "name": "Mid West" },
+      "4": { "states": ["IECN", "IEDL", "IELM", "IEMN", "IESO", "IEMO"], "name": "North West" },
+      "5": { "states": ["IEKK", "IEWX", "IEWD", "IETA", "IECW"], "name": "South East" },
+      "6": { "states": ["IECO", "IEKY"], "name": "South West" }
+    }
+  }
+  
